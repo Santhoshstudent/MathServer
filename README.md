@@ -113,7 +113,8 @@ Publish the website in the given URL.
 
 ## SERVER SIDE PROCESSING:
 
-![image](https://github.com/Santhoshstudent/MathServer/assets/145446853/fbc51954-b6f4-4c82-acd0-16dad22bf2f8)
+![image](https://github.com/Santhoshstudent/MathServer/assets/145446853/d768454c-3752-4ea1-b480-e595b723028e)
+
 
 
 
