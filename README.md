@@ -30,86 +30,72 @@ Create a HTML file to implement form based input and output.
 Publish the website in the given URL.
 
 ## PROGRAM :
+static.html
+
 <html>
 <head>
-   
-    <meta charset='utf-8'>
-    <meta http-equiv='X-UA-Compatible' content='IE=edge'>
-    
-    <title>SURFACE AREA OF CYLINDER</title>
-
-    <meta name='viewport' content='width=device-width, initial-scale=1'>
-    <style type="text/css">
-
-        body {
-            background-color:rgb(10, 218, 245);
-        }
-
-        .edge {
-            display: flex;
-            height: 100vh;
-            width: 100%;    
-            justify-content: center;
-            align-items: center;
-        }
-
-        .box {
-            display: block;
-            width: 550px;
-            min-height: 300px;
-            font-size: 20px;
-            background-color: rgb(6, 102, 227);
-            border-radius: 10px;
-            box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
-        }
-
-        .formelt {
-            color:black;
-            text-align: center;
-            margin-top: 7px;
-            margin-bottom: 6px;
-        }
-
-        h1 {
-            color:rgb(0, 0, 0);
-            text-align: center;
-            padding-top: 20px;
-        }
-        input{
-            margin: 5px;
-            padding: 5px;
-            border-radius: 5px;
-            border: none;
-
-        }
-    </style>
+<meta charset='utf-8'>
+<meta http-equiv='X-UA-Compatible' content='IE=edge'>
+<title>Area of a Square prism</title>
+<meta name='viewport' content='width=device-width, initial-scale=1'>
+<style type="text/css">
+body 
+{
+background-color:rgb(21, 24, 3);
+}
+.edge {
+width: 1440px;
+margin-left: auto;
+margin-right: auto;
+padding-top: 250px;
+padding-left: 300px;
+}
+.box {
+display:block;
+border: Thick dashed rgb(197, 188, 233);
+width: 500px;
+min-height: 300px;
+font-size: 20px;
+background-color:wheat;
+}
+.formelt{
+color:rgb(170, 216, 212);
+text-align: center;
+margin-top: 7px;
+margin-bottom: 6px;
+}
+h1
+{
+color:rgb(224, 141, 125);
+text-align: center;
+padding-top: 20px;
+}
+</style>
 </head>
-
 <body>
-    <div class="edge">
-        <div class="box">
-             <h1>santhosh kumar B(212223230193)</h1>
-            <h1>Surface Area of Cylinder </h1>
-
-            <form method="POST">
-                {% csrf_token %}
-                <div class="formelt">
-               Radius : <input type="text" name="radius" value="{{r}}"></input>(in m)<br/>
-                </div>
-                <div class="formelt">
-                Height : <input type="text" name="height" value="{{h}}"></input>(in m)<br/>
-                </div>
-                <div class="formelt">
-                <input type="submit" value="Calculate"></input><br/>
-                </div>
-                <div class="formelt">
-                Area : <input type="text" name="area" value="{{area}}"></input>m<sup>2</sup><br/>
-            </form>
-        </div>
-    </div>
+<div class="edge">
+<div class="box">
+<h1>Surface Area of cylinder</h1>
+<center>santhosh kumar B (212223230193)</center> 
+<form method="POST">
+{% csrf_token %}
+<div class="formelt">
+Radius : <input type="text" name="radius" value="{{r}}"></input>(in m)<br/>
+</div>
+<div class="formelt">
+Height : <input type="text" name="height" value="{{h}}"></input>(in m)<br/>
+</div>
+<div class="formelt">
+<input type="submit" value="Calculate"></input><br/>
+</div>
+<div class="formelt">
+Area : <input type="text" name="area" value="{{area}}"></input>m<sup>2</sup><br/>
+</div>
+</form>
+</div>
+</div>
 </body>
 </html>
-
 
 ## SERVER SIDE PROCESSING:
 
@@ -119,7 +105,9 @@ Publish the website in the given URL.
 
 
 ## HOMEPAGE:
-![Screenshot 2024-05-09 141914](https://github.com/Santhoshstudent/MathServer/assets/145446853/1c0d5016-c690-42c4-9948-d2e57f3766d0)
+![image](https://github.com/Santhoshstudent/MathServer/assets/145446853/566f0e10-1ed3-442a-bb7d-803c613054f3)
+
+
 
 
 
