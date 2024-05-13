@@ -105,7 +105,8 @@ Area : <input type="text" name="area" value="{{area}}"></input>m<sup>2</sup><br/
 
 
 ## HOMEPAGE:
-![image](https://github.com/Santhoshstudent/MathServer/assets/145446853/566f0e10-1ed3-442a-bb7d-803c613054f3)
+![5_13_2024 9_25_18 AM](https://github.com/Santhoshstudent/MathServer/assets/145446853/f28aa6da-65a0-435e-b78e-56e06458202e)
+
 
 
 
